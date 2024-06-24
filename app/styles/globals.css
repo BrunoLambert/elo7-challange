@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./fonts.css);
+
+:root {
+  --background-rgb: 255, 255, 255;
+  --image-darken-mask: 0, 0, 0, 0.4;
+}
+
+body {
+  color: black;
+  background: rgb(var(--background-rgb));
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body,
+body * {
+  font-family: MuseoSans;
+  font-weight: normal;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,19 @@
+/* Museo Sans Font */
+
+@font-face {
+    font-family: MuseoSans;
+    font-weight: lighter;
+    src: url(museo-sans-100-webfont.woff2);
+}
+
+@font-face {
+    font-family: MuseoSans;
+    font-weight: normal;
+    src: url(museo-sans-300-webfont.woff2);
+}
+
+@font-face {
+    font-family: MuseoSans;
+    font-weight: bold;
+    src: url(museo-sans-500-webfont.woff2);
+}

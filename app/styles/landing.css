@@ -1,0 +1,25 @@
+.main-header {
+    background-image: url("../assets/images/main_header.jpeg"), linear-gradient(to left, rgba(var(--image-darken-mask)), rgba(var(--image-darken-mask)));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 30vh;
+    width: 100%;
+}
+
+.section-01-bg {
+    background-image: url(../assets/images/section_01.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jobs-header {
+    background-image: url(../assets/images/jobs.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+}
