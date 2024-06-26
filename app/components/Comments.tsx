@@ -3,9 +3,9 @@ import * as React from 'react';
 interface CommentsProps { }
 
 const Comments: React.FunctionComponent<CommentsProps> = () => {
-    return (<div className="bg-elo7-grey px-10 py-14 flex gap-6">
-        <div className="h-auto w-full flex-1 section-01-bg rounded-xl" />
-        <div className="flex-1">
+    return (<div className="bg-elo7-grey px-4 lg:px-10 py-14 flex gap-6 flex-wrap">
+        <div className="h-[30vh] lg:h-auto w-full lg:flex-1 section-01-bg rounded-xl" />
+        <div className="lg:flex-1">
             <div className="font-bold text-2xl">
                 Palavra da vendedora
             </div>

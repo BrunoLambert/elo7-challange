@@ -13,12 +13,12 @@ const IMAGES: StaticImageData[] = [
 interface TeamProps { }
 
 const Team: React.FunctionComponent<TeamProps> = () => {
-    return (<div className="px-10 py-14 mb-10 flex-wrap justify-center">
+    return (<div className="px-4 lg:px-10 mt-5 lg:mt-0 lg:py-14 mb-10 flex-wrap justify-center">
         <div className="flex-1 font-bold text-[30px] mb-6 text-center">Conheça nosso time fora de série</div>
-        <div className="flex max-h-[180px] gap-5">
+        <div className="lg:flex lg:max-h-[180px] lg:gap-5">
             {IMAGES.map((img, imgIndex) => (
-                <div key={`team-image-${imgIndex}`} className="max-w-[25vw]">
-                    <Image src={img} alt={'team-' + imgIndex} className='max-h-[25vw] w-auto rounded-xl' />
+                <div key={`team-image-${imgIndex}`} className="max-w-[90vw] lg:max-w-[25vw] my-5 lg:my-0">
+                    <Image src={img} alt={'team-' + imgIndex} className='lg:max-h-[25vw] lg:w-auto rounded-xl' />
                 </div>
             ))}
         </div>

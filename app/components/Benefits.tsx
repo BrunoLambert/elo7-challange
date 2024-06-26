@@ -44,9 +44,9 @@ interface BenefitsProps { }
 
 const Benefits: React.FunctionComponent<BenefitsProps> = () => {
     return (
-        <div className="px-10 py-14 flex justify-around bg-elo7-light-yellow gap-10">
+        <div className="px-4 lg:px-10 lg:py-14 lg:flex justify-around bg-elo7-light-yellow gap-10">
             {BENEFITS.map((benefit, benefitIndex) => (
-                <div key={'benefit-' + benefitIndex} className='flex-col flex-1'>
+                <div key={'benefit-' + benefitIndex} className='flex-col flex-1 py-8 lg:my-0'>
                     <div className="p-6 bg-elo7-dark-yellow w-fit m-auto rounded-full">
                         <Image src={benefit.image} alt={'benefit-' + benefitIndex} />
                     </div>

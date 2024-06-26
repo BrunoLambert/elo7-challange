@@ -34,11 +34,11 @@ const JobSection: React.FunctionComponent<JobSectionProps> = () => {
     return (
         <div className='mb-14' id="vagas">
             <div className='jobs-header' />
-            <div className='px-10 py-14 flex justify-between align-center'>
+            <div className='px-4 lg:px-10 py-5 lg:py-14 lg:flex justify-between align-center'>
                 <div className='font-bold text-[30px]'>Vagas em aberto</div>
-                <div className='flex relative'>
+                <div className='flex relative mt-5 lg:mt-5'>
                     <input
-                        className='border-2 border-slate-200 p-2 pr-10 w-[20vw]'
+                        className='border-2 border-slate-200 p-2 pr-10 w-full lg:w-[20vw]'
                         placeholder='Nome da vaga'
                         value={searchText}
                         onChange={handleSearchTextChange}

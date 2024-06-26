@@ -6,10 +6,10 @@ interface HeaderProps { }
 
 const Header: React.FunctionComponent<HeaderProps> = () => {
     return (<div className="mb-10">
-        <div className="main-header flex items-center justify-center text-7xl font-bold text-white font-bold">
-            trabalhe no elo7
+        <div className="main-header flex items-center justify-center">
+            <h1 className='text-[10vw] xl:text-7xl font-bold text-white font-bold'>trabalhe no elo7</h1>
         </div>
-        <div className="flex flex-wrap text-center mx-14 justify-center">
+        <div className="flex flex-wrap text-center mx-2 xl:mx-14 justify-center">
             <div className="border-b-2 border-slate-200 p-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et viverra orci. Praesent consequat dolor tellus, eget viverra risus hendrerit non. Sed rutrum condimentum maximus. Donec pellentesque libero eu eros sagittis.
             </div>

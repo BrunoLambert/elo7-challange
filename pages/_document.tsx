@@ -2,10 +2,11 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
     return (
-        <Html>
+        <Html lang='pt-br'>
             <Head />
             <head>
-                <link rel="preload" as="font" type="font/woff2" href="https://www.elo7.com.br/elo7-assets/museo-sans-100-webfont.woff2" />
+                <title>Elo 7 Challange</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             </head>
             <body>
                 <Main />

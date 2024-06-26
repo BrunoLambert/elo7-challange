@@ -8,7 +8,7 @@ interface JobGroupProps {
 
 const JobGroup: React.FunctionComponent<JobGroupProps> = ({ group }) => {
     return (
-        <div className='px-10 py-5'>
+        <div className='px-4 lg:px-10 py-5'>
             <div className='text-[26px] font-bold capitalize'>
                 {group.name}
             </div>
