@@ -44,3 +44,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - It wasn't possible to get all the font styles from the Figma or from Elo7 website. Bold and higher was not present to export/download.
 - It wasn't available any log system, so it was developed in concepts terms.
 - Jest was used for tests and to support mock data Faker Package was also added.
+- Containerizing of the project isn't finished but it was started.
