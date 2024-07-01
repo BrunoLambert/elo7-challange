@@ -3,7 +3,6 @@ import SearchIcon from '../common/SearchIcon';
 import ClientService from '../../services/ClientService';
 import { JobGroup as JobGroupType } from '../../types/jobs';
 import JobGroup from './JobGroup';
-import JobDialog from '../common/EloDialog';
 
 interface JobSectionProps { }
 

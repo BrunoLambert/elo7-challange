@@ -2,10 +2,6 @@ import ServerService from '@/app/services/ServerService'
 import { JobGroup, JobsApiResponse } from '@/app/types/jobs';
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-type ResponseData = {
-    message: string
-}
-
 export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse<JobGroup[]>
