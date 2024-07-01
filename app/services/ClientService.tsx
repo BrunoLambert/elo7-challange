@@ -1,4 +1,5 @@
 import { JobGroup } from "../types/jobs";
+import { FrontRecordLog } from "../types/logs";
 
 const request = async (path: string, data?: any) => {
     return new Promise<any>(async (resolve, reject) => {
@@ -22,6 +23,9 @@ const ClientService = {
     requests: {
         getJobs: async (search: string): Promise<JobGroup[]> => {
             return request('jobs', { search });
+        },
+        recordLog: (data: FrontRecordLog) => {
+            return request('log', data)
         }
     }
 }

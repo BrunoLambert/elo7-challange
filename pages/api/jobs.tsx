@@ -16,6 +16,7 @@ export default async function handler(
 
         const formattedResopnse: JobGroup[] = [];
         const searchText = req.query.search as string;
+        ServerService.registerLog.record(req, { name: 'Job Search Query', value: searchText })
 
         responseData.jobs.forEach(job => {
             if (searchText && !job.title.includes(searchText.toLowerCase())) return;
@@ -34,6 +35,7 @@ export default async function handler(
 
         res.status(200).json(formattedResopnse);
     } catch (error: any) {
+        ServerService.registerLog.error(req, error);
         res.status(500).json(error)
     }
 }

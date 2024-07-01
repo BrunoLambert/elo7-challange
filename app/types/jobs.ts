@@ -1,11 +1,11 @@
-type JobLevel = 'especialista' | 'estágio' | 'pleno' | 'senior' | 'junior';
+export type JobLevel = 'especialista' | 'estágio' | 'pleno' | 'senior' | 'junior';
 
 export interface Job {
     "title": string,
     "type": string,
     "level": JobLevel,
     "location"?: string,
-    "is_active": boolean
+    "is_active": boolean,
 }
 
 export interface JobsApiResponse {
